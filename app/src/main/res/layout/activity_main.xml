@@ -10,7 +10,7 @@
     <include
         layout="@layout/item"
         android:layout_width="match_parent"
-        android:layout_height="161dp" />
+        android:layout_height="wrap_content" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,7 +20,7 @@
         <include
             layout="@layout/buttons_layout"
             android:layout_width="match_parent"
-            android:layout_height="576dp" />
+            android:layout_height="match_parent" />
 
     </RelativeLayout>
     <TextView

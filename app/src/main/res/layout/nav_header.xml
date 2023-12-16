@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/firebase_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_nav" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGUAGUI Meryeme"
+        android:textColor="#162A9A"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meryeme.reguagui@usmba.ac.ma"
+        android:textColor="#132487"
+        android:textSize="14sp" />
+
+
+
+
+</LinearLayout>

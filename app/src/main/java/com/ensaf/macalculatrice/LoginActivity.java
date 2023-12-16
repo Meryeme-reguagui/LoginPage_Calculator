@@ -2,9 +2,10 @@ package com.ensaf.macalculatrice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 import android.content.Intent;
+import android.os.Bundle;
+import android.text.InputType;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,10 +26,27 @@ public class LoginActivity extends AppCompatActivity {
 
         databaseHelper = new DatabaseHelper(this);
 
-        loginEmail = findViewById(R.id.login_email);
+        //loginEmail = findViewById(R.id.login_email);
         loginPassword = findViewById(R.id.login_password);
         loginButton = findViewById(R.id.login_button);
         signupRedirectText = findViewById(R.id.signupRedirectText);
+
+        loginPassword.setOnTouchListener((v, event) -> {
+            final int DRAWABLE_RIGHT = 2; // Index for the right drawable
+
+            if (event.getAction() == MotionEvent.ACTION_UP) {
+                if (event.getRawX() >= (loginPassword.getRight() - loginPassword.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+                    // Toggling password visibility
+                    if (loginPassword.getInputType() == InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
+                        loginPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    } else {
+                        loginPassword.setInputType(InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                    }
+                    return true;
+                }
+            }
+            return false;
+        });
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     if (checkCredentials) {
                         Toast.makeText(LoginActivity.this, "Login Successfully!", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, FirebaseLogin.class);
                         startActivity(intent);
                     } else {
                         Toast.makeText(LoginActivity.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();

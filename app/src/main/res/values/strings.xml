@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MaCalculatrice</string>
+
+
+    <string name="facebook_app_id">648738600797524</string>
+    <string name="fb_login_protocol_scheme">fb648738600797524</string>
+    <string name="facebook_client_token">bd4db08bda1b1fddf398941c98ffc91b</string>
+
+    <string name="app_menu">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

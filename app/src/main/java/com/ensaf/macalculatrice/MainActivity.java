@@ -101,11 +101,12 @@ public class MainActivity extends AppCompatActivity {
         if (isOperator(data.charAt(0))) {
             handleOperatorInput(data);
         } else {
-            solve();
             input += data;
             lastClickedIsOperator = false;
+            inputText.setText(input);
         }
     }
+
     private boolean isOperator(char c)
     {
         return c == '+' || c == '-' || c == '*' || c == '/' ;

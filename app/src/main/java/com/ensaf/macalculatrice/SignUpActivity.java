@@ -48,7 +48,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                             if(insert) {
                                 Toast.makeText(SignUpActivity.this, "Signup Successfully!", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), FirebaseLogin.class);
                                 startActivity(intent);
                             } else {
                                 Toast.makeText(SignUpActivity.this, "Signup Failed!", Toast.LENGTH_SHORT).show();
@@ -66,7 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
         loginRedirectText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
+                Intent intent = new Intent(SignUpActivity.this,FirebaseLogin.class);
                 startActivity(intent);
             }
         });

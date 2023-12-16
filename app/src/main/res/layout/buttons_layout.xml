@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_backgroud">
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="562dp"
@@ -15,11 +16,12 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
             android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="C"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
         <Button
@@ -29,11 +31,12 @@
             android:layout_row="0"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="^"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
         <Button
@@ -43,11 +46,12 @@
             android:layout_row="0"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="%"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
         <Button
@@ -57,10 +61,11 @@
             android:layout_row="0"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="/"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
         <Button
@@ -70,11 +75,12 @@
             android:layout_row="1"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="7"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -84,11 +90,12 @@
             android:layout_row="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="8"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -98,11 +105,12 @@
             android:layout_row="1"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="9"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -112,11 +120,12 @@
             android:layout_row="1"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="*"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
         <Button
@@ -126,11 +135,12 @@
             android:layout_row="2"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="4"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -140,11 +150,12 @@
             android:layout_row="2"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="5"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -154,11 +165,12 @@
             android:layout_row="2"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="6"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -168,11 +180,12 @@
             android:layout_row="2"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="-"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
 
@@ -183,11 +196,12 @@
             android:layout_row="3"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="1"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -197,11 +211,12 @@
             android:layout_row="3"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="2"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -211,11 +226,12 @@
             android:layout_row="3"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="3"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -225,11 +241,12 @@
             android:layout_row="3"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="+"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue4"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
         <Button
@@ -239,11 +256,12 @@
             android:layout_row="4"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="0"
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#EAD6B9"
             android:textSize="35sp" />
 
         <Button
@@ -253,11 +271,12 @@
             android:layout_row="4"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue2"
+            android:layout_margin="4sp"
+            android:backgroundTint="#788081"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="."
-            android:layout_margin="4sp"
-            android:textColor="@color/blue5"
+            android:textColor="#D5830B"
             android:textSize="30sp" />
 
         <Button
@@ -268,11 +287,12 @@
             android:layout_column="2"
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/blue5"
+            android:layout_margin="4sp"
+            android:backgroundTint="#D8942E"
+            android:fontFamily="sans-serif-black"
             android:onClick="onButtonClicked"
             android:text="="
-            android:layout_margin="4sp"
-            android:textColor="@color/blue3"
+            android:textColor="@color/white"
             android:textSize="35sp" />
 
 

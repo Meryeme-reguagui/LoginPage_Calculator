@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "915142196605",
+    "project_id": "macalculatrice-8c06b",
+    "storage_bucket": "macalculatrice-8c06b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915142196605:android:884709f6fba2f60142e014",
+        "android_client_info": {
+          "package_name": "com.ensaf.macalculatrice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915142196605-s0lsem3odc4bc5svie24t3ot7mtho3u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ensaf.macalculatrice",
+            "certificate_hash": "df680306d590d5c60e2ee761e18a48dff9ea178c"
+          }
+        },
+        {
+          "client_id": "915142196605-ht02bb4rkeo83jnau9irjg89q63c7sdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLW6ahJOA-ewtwZAyrHcvaVu_Dw9sCdTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915142196605-ht02bb4rkeo83jnau9irjg89q63c7sdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/blue2">
+    android:background="@drawable/border_item">
 
     <TextView
         android:id="@+id/input_text"
@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="34567"
         android:textSize="40sp"
-        android:textColor="@color/blue5"
+        android:textColor="#8F5C12"
         android:padding="10dp"
         android:layout_gravity="end"/>
     <TextView
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="56768"
         android:textSize="60sp"
-        android:textColor="@color/white"
+        android:textColor="#852B0F"
         android:padding="10dp"
         android:layout_gravity="end"/>
 
